@@ -23,9 +23,6 @@ class DepthCalculator {
     return 0;
   }
 }
-const instance = new DepthCalculator();
-const calculateDepth = instance.calculateDepth.bind(instance);
-console.log(calculateDepth([1, 2, 3, 4, 5, [1]]));
 
 module.exports = {
   DepthCalculator,
